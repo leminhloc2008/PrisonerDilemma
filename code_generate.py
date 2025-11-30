@@ -3,7 +3,7 @@ import os
 import re
 
 # Set up your Google Gemini API key
-genai.configure(api_key='AIzaSyC9ztlMxH0g9lotzLH4iJX8tNAMcoJFGlg')
+genai.configure(api_key='')
 
 # Set up the model
 model = genai.GenerativeModel('gemini-pro')
@@ -77,4 +77,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
